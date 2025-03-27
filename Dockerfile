@@ -1,20 +1,17 @@
-# Use an official .NET runtime as base
-FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
-
-# Use an official .NET SDK for building
+# Use .NET 6 SDK for building
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copy project files
-COPY *.csproj ./
+# Copy project and restore dependencies
+COPY ["Pokemon Api.csproj", "./"]
 RUN dotnet restore
 
-# Copy the rest of the application and build
-COPY . ./
-RUN dotnet publish -c Release -o /publish
+# Copy everything and build
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
 
-# Build runtime image
-FROM base AS final
+# Use the correct .NET 6 runtime
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
 WORKDIR /app
-COPY --from=build /publish .
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "Pokemon Api.dll"]
