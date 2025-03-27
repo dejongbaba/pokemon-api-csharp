@@ -17,4 +17,4 @@ RUN dotnet publish -c Release -o /publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /publish .
-ENTRYPOINT ["dotnet", "Pokenon Api.dll"]
+ENTRYPOINT ["dotnet", "Pokemon Api.dll"]
