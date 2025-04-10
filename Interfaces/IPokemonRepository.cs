@@ -8,7 +8,7 @@ namespace Pokemon_Api.Interfaces
         ICollection<Models.Pokemon> GetPokemons();
         Models.Pokemon GetPokemon(int id);
         Models.Pokemon GetPokemon(string name);
-        Models.Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate);
+        Models.Pokemon GetPokemonTrimToUpper(PokemonCreateRequestDto pokemonCreate);
         decimal GetPokemonRating(int pokeId);
         bool PokemonExists(int pokeId);
         bool CreatePokemon(int ownerId, int categoryId, Models.Pokemon pokemon);

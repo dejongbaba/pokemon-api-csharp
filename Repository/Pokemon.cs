@@ -71,7 +71,7 @@ namespace Pokemon_Api.Repository
             return _context.Pokemon.OrderBy(p => p.Id).ToList();
         }
 
-        public Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate)
+        public Pokemon GetPokemonTrimToUpper(PokemonCreateRequestDto pokemonCreate)
         {
             return GetPokemons().Where(c => c.Name.Trim().ToUpper() == pokemonCreate.Name.TrimEnd().ToUpper())
                 .FirstOrDefault();
