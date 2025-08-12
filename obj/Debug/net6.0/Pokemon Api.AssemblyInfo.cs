@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pokemon Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7459accb0050c2324d3d63061da8ed009fdba1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pokemon Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pokemon Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

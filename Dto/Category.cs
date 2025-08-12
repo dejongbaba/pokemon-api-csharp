@@ -6,7 +6,7 @@ namespace Pokemon_Api.Dto
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<PokemonResponseDto> Pokemon { get; set; }
+        //public ICollection<PokemonResponseDto> Pokemon { get; set; }
     }
 
     public class CategoryCreateRequestDto

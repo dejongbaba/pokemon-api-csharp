@@ -47,8 +47,30 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 var app = builder.Build();
 
-//if (args.Length == 1 && args[0].ToLower() == "seeddata")
-    //SeedData(app);
+// Auto-migrate and seed database on startup
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<DataContext>();
+        
+        // Apply any pending migrations
+        context.Database.Migrate();
+        
+        // Seed data if database is empty
+        if (!context.Pokemon.Any())
+        {
+            var seeder = services.GetRequiredService<Seed>();
+            seeder.SeedDataContext();
+        }
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred while migrating or seeding the database.");
+    }
+}
 
 void SeedData(IHost app)
 {

@@ -2,92 +2,111 @@
   {
     "ContainingType": "Pokemon_Api.Controllers.CategoryController",
     "Method": "GetCategories",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/categories",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Pokemon_Api.Dto.CategoryDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Pokemon_Api.Dto.CategoryResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CategoryController",
     "Method": "CreateCategory",
-    "RelativePath": "api/Category",
+    "RelativePath": "api/categories",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "categoryCreate",
-        "Type": "Pokemon_Api.Dto.CategoryDto",
+        "Type": "Pokemon_Api.Dto.CategoryCreateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[Pokemon_Api.Dto.CategoryResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CategoryController",
     "Method": "GetCategory",
-    "RelativePath": "api/Category/{categoryId}",
+    "RelativePath": "api/categories/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryId",
+        "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.CategoryController",
-    "Method": "UpdateCategory",
-    "RelativePath": "api/Category/{categoryId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedCategory",
-        "Type": "Pokemon_Api.Dto.CategoryDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[Pokemon_Api.Dto.CategoryResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -95,6 +114,37 @@
         ],
         "StatusCode": 400
       },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.CategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCategory",
+        "Type": "Pokemon_Api.Dto.CategoryUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -107,34 +157,39 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CategoryController",
     "Method": "DeleteCategory",
-    "RelativePath": "api/Category/{categoryId}",
+    "RelativePath": "api/categories/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "categoryId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -147,33 +202,7 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.CategoryController",
-    "Method": "GetPokemonByCategoryId",
-    "RelativePath": "api/Category/pokemon/{categoryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Pokemon, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "StatusCode": 400
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -182,49 +211,111 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.CategoryController",
+    "Method": "GetPokemonByCategory",
+    "RelativePath": "api/categories/pokemon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Pokemon_Api.Dto.PokemonResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Pokemon_Api.Models.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CountryController",
     "Method": "GetCountries",
-    "RelativePath": "api/Country",
+    "RelativePath": "api/countries",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Country, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.CountryResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CountryController",
     "Method": "CreateCountry",
-    "RelativePath": "api/Country",
+    "RelativePath": "api/countries",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "countryCreate",
-        "Type": "Pokemon_Api.Dto.CountryDto",
+        "Type": "Pokemon_Api.Dto.CountryCreateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "Pokemon_Api.Dto.CountryResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -234,26 +325,40 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CountryController",
     "Method": "GetCountry",
-    "RelativePath": "api/Country/{countryId}",
+    "RelativePath": "api/countries/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "countryId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Country",
+        "Type": "Pokemon_Api.Dto.CountryResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -269,42 +374,6 @@
           "text/json"
         ],
         "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.CountryController",
-    "Method": "UpdateCategory",
-    "RelativePath": "api/Country/{countryId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "countryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedCountry",
-        "Type": "Pokemon_Api.Dto.CountryDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -319,19 +388,29 @@
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.CountryController",
-    "Method": "DeleteCountry",
-    "RelativePath": "api/Country/{countryId}",
-    "HttpMethod": "DELETE",
+    "Method": "UpdateCountry",
+    "RelativePath": "api/countries/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "countryId",
+        "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCountry",
+        "Type": "Pokemon_Api.Dto.CountryUpdateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
@@ -342,9 +421,98 @@
         "StatusCode": 400
       },
       {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.CountryController",
+    "Method": "DeleteCountry",
+    "RelativePath": "api/countries/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.CountryController",
+    "Method": "GetOwnerFromACountry",
+    "RelativePath": "api/countries/owner/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.OwnerResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -360,47 +528,55 @@
   {
     "ContainingType": "Pokemon_Api.Controllers.OwnerController",
     "Method": "GetOwners",
-    "RelativePath": "api/Owner",
+    "RelativePath": "api/owners",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Owner, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.OwnerResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.OwnerController",
     "Method": "CreateOwner",
-    "RelativePath": "api/Owner",
+    "RelativePath": "api/owners",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "countryId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "ownerCreate",
-        "Type": "Pokemon_Api.Dto.OwnerDto",
+        "Type": "Pokemon_Api.Dto.OwnerCreateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "Pokemon_Api.Dto.OwnerResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -410,26 +586,40 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.OwnerController",
     "Method": "GetOwner",
-    "RelativePath": "api/Owner/{ownerId}",
+    "RelativePath": "api/owners/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ownerId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Owner",
+        "Type": "Pokemon_Api.Dto.OwnerResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -445,38 +635,38 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.OwnerController",
     "Method": "UpdateOwner",
-    "RelativePath": "api/Owner/{ownerId}",
+    "RelativePath": "api/owners/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ownerId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
         "Name": "updatedOwner",
-        "Type": "Pokemon_Api.Dto.OwnerDto",
+        "Type": "Pokemon_Api.Dto.OwnerUpdateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -489,25 +679,44 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.OwnerController",
     "Method": "DeleteOwner",
-    "RelativePath": "api/Owner/{ownerId}",
+    "RelativePath": "api/owners/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ownerId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
@@ -518,9 +727,53 @@
         "StatusCode": 400
       },
       {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
         "Type": "System.Void",
         "MediaTypes": [],
-        "StatusCode": 204
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.OwnerController",
+    "Method": "GetPokemonByOwner",
+    "RelativePath": "api/owners/pokemon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.PokemonResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -534,22 +787,16 @@
     ]
   },
   {
-    "ContainingType": "Pokemon_Api.Controllers.OwnerController",
-    "Method": "GetPokemonByOwner",
-    "RelativePath": "api/Owner/{ownerId}/pokemon",
+    "ContainingType": "Pokemon_Api.Controllers.PokemonController",
+    "Method": "GetPokemons",
+    "RelativePath": "api/pokemon",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ownerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Owner",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.PokemonResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -570,28 +817,8 @@
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.PokemonController",
-    "Method": "GetPokemons",
-    "RelativePath": "api/Pokemon",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Pokemon, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.PokemonController",
     "Method": "CreatePokemon",
-    "RelativePath": "api/Pokemon",
+    "RelativePath": "api/pokemon",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -608,15 +835,19 @@
       },
       {
         "Name": "pokemonCreate",
-        "Type": "Pokemon_Api.Dto.PokemonDto",
+        "Type": "Pokemon_Api.Dto.PokemonCreateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "Pokemon_Api.Dto.PokemonResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -626,26 +857,49 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.PokemonController",
     "Method": "GetPokemon",
-    "RelativePath": "api/Pokemon/{pokeId}",
+    "RelativePath": "api/pokemon/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pokeId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Pokemon",
+        "Type": "Pokemon_Api.Dto.PokemonResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -661,19 +915,28 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.PokemonController",
     "Method": "UpdatePokemon",
-    "RelativePath": "api/Pokemon/{pokeId}",
+    "RelativePath": "api/pokemon/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pokeId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       },
@@ -689,20 +952,11 @@
       },
       {
         "Name": "updatedPokemon",
-        "Type": "Pokemon_Api.Dto.PokemonDto",
+        "Type": "Pokemon_Api.Dto.PokemonUpdateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -715,34 +969,39 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.PokemonController",
     "Method": "DeletePokemon",
-    "RelativePath": "api/Pokemon/{pokeId}",
+    "RelativePath": "api/pokemon/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pokeId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -755,20 +1014,34 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.PokemonController",
     "Method": "GetPokemonRating",
-    "RelativePath": "api/Pokemon/{pokeId}/rating",
+    "RelativePath": "api/pokemon/{id}/rating",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pokeId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -791,33 +1064,312 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewController",
-    "Method": "GetReviews",
-    "RelativePath": "api/Review",
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "GetReviewers",
+    "RelativePath": "api/reviewers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Review, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.ReviewerResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
           "text/json"
         ],
         "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "CreateReviewer",
+    "RelativePath": "api/reviewers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewerCreate",
+        "Type": "Pokemon_Api.Dto.ReviewerCreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pokemon_Api.Dto.ReviewerResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "GetReviewer",
+    "RelativePath": "api/reviewers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pokemon_Api.Dto.ReviewerResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "UpdateReviewer",
+    "RelativePath": "api/reviewers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedReviewer",
+        "Type": "Pokemon_Api.Dto.ReviewerUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "DeleteReviewer",
+    "RelativePath": "api/reviewers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
+    "Method": "GetReviewsByReviewer",
+    "RelativePath": "api/reviewers/reviews/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.ReviewResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "Pokemon_Api.Controllers.ReviewController",
+    "Method": "GetReviews",
+    "RelativePath": "api/reviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.ReviewResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
     "Method": "CreateReview",
-    "RelativePath": "api/Review",
+    "RelativePath": "api/reviews",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -834,15 +1386,19 @@
       },
       {
         "Name": "reviewCreate",
-        "Type": "Pokemon_Api.Dto.ReviewDto",
+        "Type": "Pokemon_Api.Dto.ReviewCreateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
+        "Type": "Pokemon_Api.Dto.ReviewResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -852,26 +1408,49 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 422
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
-    "Method": "GetPokemon",
-    "RelativePath": "api/Review/{reviewId}",
+    "Method": "GetReview",
+    "RelativePath": "api/reviews/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reviewId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Review",
+        "Type": "Pokemon_Api.Dto.ReviewResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -887,38 +1466,38 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
     "Method": "UpdateReview",
-    "RelativePath": "api/Review/{reviewId}",
+    "RelativePath": "api/reviews/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reviewId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       },
       {
         "Name": "updatedReview",
-        "Type": "Pokemon_Api.Dto.ReviewDto",
+        "Type": "Pokemon_Api.Dto.ReviewUpdateRequestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -931,34 +1510,39 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
     "Method": "DeleteReview",
-    "RelativePath": "api/Review/{reviewId}",
+    "RelativePath": "api/reviews/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reviewId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -971,27 +1555,41 @@
           "application/json",
           "text/json"
         ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 404
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
     "Method": "GetReviewsForAPokemon",
-    "RelativePath": "api/Review/pokemon/{pokeId}",
+    "RelativePath": "api/reviews/pokemon/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pokeId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Pokemon_Api.Models.Review",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Dto.ReviewResponseDto, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1007,128 +1605,6 @@
           "text/json"
         ],
         "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "GetReviewers",
-    "RelativePath": "api/Reviewer",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Pokemon_Api.Models.Reviewer, Pokemon Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "CreateReviewer",
-    "RelativePath": "api/Reviewer",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reviewerCreate",
-        "Type": "Pokemon_Api.Dto.ReviewerDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "GetPokemon",
-    "RelativePath": "api/Reviewer/{reviewerId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reviewerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Pokemon_Api.Models.Reviewer",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "UpdateReviewer",
-    "RelativePath": "api/Reviewer/{reviewerId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reviewerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedReviewer",
-        "Type": "Pokemon_Api.Dto.ReviewerDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
@@ -1140,87 +1616,22 @@
         "StatusCode": 404
       }
     ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "DeleteReviewer",
-    "RelativePath": "api/Reviewer/{reviewerId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reviewerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 204
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.ReviewerController",
-    "Method": "GetReviewsByAReviewer",
-    "RelativePath": "api/Reviewer/{reviewerId}/reviews",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "reviewerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "Pokemon_Api.Controllers.ReviewController",
     "Method": "DeleteReviewsByReviewer",
-    "RelativePath": "DeleteReviewsByReviewer/{reviewerId}",
+    "RelativePath": "api/reviews/reviewer/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reviewerId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
       {
         "Type": "System.Void",
         "MediaTypes": [],
@@ -1233,25 +1644,8 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "Pokemon_Api.Controllers.CountryController",
-    "Method": "GetCountryOfAnOwner",
-    "RelativePath": "owners/{ownerId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "ownerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
+        "StatusCode": 400
+      },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
@@ -1259,16 +1653,12 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 400
+        "StatusCode": 404
       },
       {
-        "Type": "Pokemon_Api.Models.Country",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
       }
     ]
   }

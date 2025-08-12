@@ -3,12 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\pokemon api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:pokemon api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\dto\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:dto\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\dto\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:dto\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\dto\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:dto\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:helper\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\repository\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:repository\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\reviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:controllers\\reviewercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\dto\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:dto\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\repository\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:repository\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +103,12 @@
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\repository\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:repository\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\repository\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:repository\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\migrations\\20250310160237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:migrations\\20250310160237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,20 +123,16 @@
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:interfaces\\iownerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:controllers\\ownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\repository\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:repository\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\interfaces\\ireviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:interfaces\\ireviewerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:interfaces\\ipokemonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|c:\\users\\adedeji.revent\\source\\repos\\pokemon api\\migrations\\20250310160237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F69ECDE-5D07-4E54-895D-722F6C83E22C}|Pokemon Api.csproj|solutionrelative:migrations\\20250310160237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,115 +142,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Seed.cs",
+              "RelativeDocumentMoniker": "Seed.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Seed.cs",
+              "RelativeToolTip": "Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T17:40:35.559Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PokemonOwner.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\PokemonOwner.cs",
-              "RelativeDocumentMoniker": "Models\\PokemonOwner.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\PokemonOwner.cs",
-              "RelativeToolTip": "Models\\PokemonOwner.cs",
+              "DocumentIndex": 5,
+              "Title": "Reviewer.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Reviewer.cs",
+              "RelativeDocumentMoniker": "Dto\\Reviewer.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Reviewer.cs",
+              "RelativeToolTip": "Dto\\Reviewer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:10:20.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T16:15:41.204Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Pokemon.cs",
-              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Pokemon.cs",
-              "RelativeToolTip": "Models\\Pokemon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Country.cs",
+              "RelativeDocumentMoniker": "Dto\\Country.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Country.cs",
+              "RelativeToolTip": "Dto\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:10:13.959Z",
+              "WhenOpened": "2025-05-05T16:15:10.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Country.cs",
-              "RelativeDocumentMoniker": "Models\\Country.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Country.cs",
-              "RelativeToolTip": "Models\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:10:08.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Review.cs",
-              "RelativeDocumentMoniker": "Models\\Review.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Review.cs",
-              "RelativeToolTip": "Models\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:06:54.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Category.cs",
-              "RelativeDocumentMoniker": "Repository\\Category.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Category.cs",
-              "RelativeToolTip": "Repository\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Category.cs",
+              "RelativeDocumentMoniker": "Dto\\Category.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Category.cs",
+              "RelativeToolTip": "Dto\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:22:20.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T15:53:22.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:38:23.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T22:54:32.641Z",
               "EditorCaption": ""
@@ -206,19 +222,244 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T08:53:18.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pokemon Api.csproj",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Pokemon Api.csproj",
+              "RelativeDocumentMoniker": "Pokemon Api.csproj",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Pokemon Api.csproj",
+              "RelativeToolTip": "Pokemon Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T08:54:05.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReviewerController.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\ReviewerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewerController.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\ReviewerController.cs",
+              "RelativeToolTip": "Controllers\\ReviewerController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAMwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:43:52.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Repository\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Pokemon.cs",
+              "RelativeToolTip": "Repository\\Pokemon.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAWwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:41:51.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T11:38:23.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Helper\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Helper\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Helper\\MappingProfiles.cs",
+              "RelativeToolTip": "Helper\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:44:10.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:10:08.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:36:15.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Controllers\\CountryController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwFAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:52:49.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Reviewer.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Reviewer.cs",
               "RelativeDocumentMoniker": "Models\\Reviewer.cs",
               "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Reviewer.cs",
               "RelativeToolTip": "Models\\Reviewer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:51:10.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:51:10.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Dto\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Dto\\Pokemon.cs",
+              "RelativeToolTip": "Dto\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:33:08.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Reviewer.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Reviewer.cs",
+              "RelativeDocumentMoniker": "Repository\\Reviewer.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Reviewer.cs",
+              "RelativeToolTip": "Repository\\Reviewer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:23:53.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OwnerController.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\OwnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\OwnerController.cs",
+              "RelativeToolTip": "Controllers\\OwnerController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAMwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T23:14:21.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:10:08.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:06:54.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Category.cs",
+              "RelativeDocumentMoniker": "Repository\\Category.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Category.cs",
+              "RelativeToolTip": "Repository\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:22:20.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPokemonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IPokemonRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IPokemonRepository.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IPokemonRepository.cs",
+              "RelativeToolTip": "Interfaces\\IPokemonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T23:16:26.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Models\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:10:13.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PokemonOwner.cs",
+              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\PokemonOwner.cs",
+              "RelativeDocumentMoniker": "Models\\PokemonOwner.cs",
+              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\PokemonOwner.cs",
+              "RelativeToolTip": "Models\\PokemonOwner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:10:20.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Country.cs",
               "RelativeDocumentMoniker": "Repository\\Country.cs",
@@ -226,12 +467,11 @@
               "RelativeToolTip": "Repository\\Country.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAkwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:58:36.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:58:36.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "Owner.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Owner.cs",
               "RelativeDocumentMoniker": "Models\\Owner.cs",
@@ -239,12 +479,11 @@
               "RelativeToolTip": "Models\\Owner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:48:52.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:48:52.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 24,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -252,12 +491,11 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T23:16:58.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T23:16:58.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 31,
               "Title": "DataContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Migrations\\DataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\DataContextModelSnapshot.cs",
@@ -265,12 +503,11 @@
               "RelativeToolTip": "Migrations\\DataContextModelSnapshot.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:08:53.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T16:08:53.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "20250310160237_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Migrations\\20250310160237_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250310160237_InitialCreate.cs",
@@ -278,12 +515,11 @@
               "RelativeToolTip": "Migrations\\20250310160237_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:02:37.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T16:02:37.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
@@ -291,12 +527,11 @@
               "RelativeToolTip": "Controllers\\ReviewController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:58:21.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:58:21.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "PokemonController.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\PokemonController.cs",
               "RelativeDocumentMoniker": "Controllers\\PokemonController.cs",
@@ -304,12 +539,11 @@
               "RelativeToolTip": "Controllers\\PokemonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T23:14:52.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T23:14:52.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "IOwnerRepository.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IOwnerRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IOwnerRepository.cs",
@@ -317,38 +551,11 @@
               "RelativeToolTip": "Interfaces\\IOwnerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:10:52.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T22:10:52.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OwnerController.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\OwnerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OwnerController.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Controllers\\OwnerController.cs",
-              "RelativeToolTip": "Controllers\\OwnerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T23:14:21.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Reviewer.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Reviewer.cs",
-              "RelativeDocumentMoniker": "Repository\\Reviewer.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Repository\\Reviewer.cs",
-              "RelativeToolTip": "Repository\\Reviewer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T22:23:53.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "IReviewerRepository.cs",
               "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IReviewerRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IReviewerRepository.cs",
@@ -356,21 +563,7 @@
               "RelativeToolTip": "Interfaces\\IReviewerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T23:16:17.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IPokemonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IPokemonRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IPokemonRepository.cs",
-              "ToolTip": "C:\\Users\\adedeji.revent\\source\\repos\\Pokemon Api\\Interfaces\\IPokemonRepository.cs",
-              "RelativeToolTip": "Interfaces\\IPokemonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T23:16:26.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T23:16:17.344Z"
             }
           ]
         }
